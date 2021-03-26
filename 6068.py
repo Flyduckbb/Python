@@ -1,11 +1,11 @@
 a=input()
-a=int(a)
-
-if a>=90:
-    print('A')
-elif a>=70:
-    print('B')
-elif a>=40:
-    print('C')
+if a=='A':
+    print('best!!!')
+elif a=='B':
+    print('good!!')
+elif a=='C':
+    print('run!')
+elif a=='D':
+    print('slowly~')
 else:
-    print('D')
+    print('what?')
